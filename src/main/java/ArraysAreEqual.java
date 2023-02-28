@@ -1,3 +1,6 @@
+import java.lang.reflect.Array;
+import java.util.Arrays;
+
 //see test cases.
 public class ArraysAreEqual {
     /**
@@ -15,6 +18,7 @@ public class ArraysAreEqual {
      * @return true if the values of a are equal to the values of b.
      */
     public boolean equal(int[] a, int[] b){
+        if(Arrays.equals(a, b)) return true; 
         return false;
     }
 }
